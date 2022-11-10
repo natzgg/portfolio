@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- INTRODUCTION FADE & APPEAR -->
+      <div class="intro">
+        <h1 class="intro-header">
+          <span class="text">H</span>
+          <span class="text">E</span>
+          <span class="text">L</span>
+          <span class="text">L</span>
+          <span class="text">O</span>
+          <span class="text">!</span>
+        </h1>
+      </div>
+
+      <header class="header" id="head">
+        <nav class="nav-bar">
+          <div class="logo-container">
+            <a href="#" class="nav-logo">
+              <img src="https://i.ibb.co/8KLQVDz/my-logo.png" alt="" />
+            </a>
+          </div>
+
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav_link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav_link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav_link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav_link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav_link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Toggle Menu for mobile -->
+          <div class="nav-toggle" id="nav_toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main" id="main">
+        <!--Home-->
+        <div class="section home-data" id="home">
+          <h1 class="home-title">
+            <span class="home-text"
+              >Hi,<br />
+              I'm <span class="home_title-color">Nathaniel</span><br
+            /></span>
+            <span class="home-text" id="autoWrite"></span>
+          </h1>
+
+          <div class="img-container">
+            <img
+              src="https://i.ibb.co/YjCJxVN/C82-E4714-0060-42-F4-A262-09-F25085824-C.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div class="section about" id="about">
+          <h2 class="section-title">ABOUT</h2>
+
+          <div class="about-items">
+            <div class="about-image-container">
+              <img
+                src="https://i.ibb.co/Y3fqByr/08-D96-DAE-84-CC-4-E59-9-BA8-2-DF651-A96-AA5.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="about-text-container">
+              <p class="about-text">
+                I'm an aspiring game developer and web developer based in Japan.
+                I'm looking forward to continuing my career as a web developer
+                here in Japan. And if opportunity opens in another location, I
+                won't hesitate to grab it. I'm so fascinated on how a web works.
+                I believe that as a developer, you can easily adapt to any
+                programming language as long as you know the concept of
+                programming. I also believe that Web Development is a continuous
+                learning process.<br /><br /><br />
+                In my free time, I love to make my own games and my own game
+                engine. I usually make browser-based games.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="section skills" id="skills">
+          <h2 class="section-title">SKILLS</h2>
+
+          <div class="skills-container">
+            <ul class="skill-list">
+              <div class="row">
+                <li class="skill"><i class="bx bxl-html5"></i>HTML5</li>
+                <li class="skill"><i class="bx bxl-css3"></i>CSS3</li>
+                <li class="skill"><i class="bx bxl-react"></i>REACT</li>
+                <li class="skill">
+                  <i class="bx bxl-javascript"></i>JAVASCRIPT
+                </li>
+              </div>
+
+              <div class="row">
+                <li class="skill"><i class="bx bxl-sketch"></i>SASS</li>
+                <li class="skill"><i class="bx bxl-mongodb"></i>MONGODB</li>
+                <li class="skill"><i class="bx bxl-nodejs"></i>NODEJS</li>
+                <li class="skill"><i class="bx bxl-python"></i>PYTHON</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="section projects" id="projects">
+          <div class="section-title">PROJECTS</div>
+          <div class="projects-container">
+            <div class="project-item">
+              <img src="https://picsum.photos/id/0/5000/3333.jpg" alt="" />
+
+              <div class="project-info">
+                <div class="project-title">
+                  <h3>Anthelon</h3>
+                </div>
+                <div class="project-desc">
+                  <p>
+                    A browser based RPG where you can explore and make your own
+                    adventure. Grind, Find new items and make friends!
+                  </p>
+                </div>
+                <div class="project-stack">
+                  <button class="project-button view-live">
+                    <i class="bx bx-search"></i>
+                    <span class="button-text">View Live</span>
+                  </button>
+                  <button class="project-button github-link">
+                    <i class="bx bxl-github"></i>
+                    <span class="button-text">Github</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-item">
+              <img src="https://picsum.photos/id/0/5000/3333.jpg" alt="" />
+            </div>
+
+            <div class="project-item">
+              <img src="https://picsum.photos/id/0/5000/3333.jpg" alt="" />
+            </div>
+
+            <div class="project-item">
+              <img src="https://picsum.photos/id/0/5000/3333.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT ME -->
+        <div class="section contact-me" id="contact">
+          <div class="section-title">CONTACT</div>
+          <div class="contact-me-container">
+          <form action="POST">
+
+
+          <input type="text" required placeholder="Name"></input>
+          <input type="email" required placeholder="Email"></input>
+
+          <textarea name="text" id="text" cols="30" rows="10"></textarea>
+          <button class="button submit-button" type="submit" value="Send">Send</button>
+
+          </form>
+        </div>
+        </div>
+
+        <div class="footer"><span>Thank you for visiting!</span>
+          <i class='bx bxl-facebook-circle'></i>
+          <i class='bx bxl-github' ></i>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</html>
